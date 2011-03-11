@@ -1,6 +1,53 @@
 = frogger
 
-Description goes here.
+Frogger makes navigating logs easier and more fun.
+
+Navigating 'noise' in your log files can feel like when you are crossing a busy road while attempting to avoid the cars.
+Frogger makes your log files more fun by adding some 8 bit colour and a bit of nice formatting.
+
+== Why?
+
+Other log enhancing gems are all about tracking performance and other such tasks.
+Frogger is different. When you tail your logs, there is so much 'noise', it's hard to find a safe path through.
+
+I created frogger after squinting at the log tail so many times and feeling like a complete idiot as I searched for my needle in a haystack.
+
+I though surely this can be more fun.
+
+Initially I've added a few tricks for working with cucumber log files, but there is more to come.
+
+== How
+
+  Add this to your Gemfile:
+    gem 'frogger'
+
+    
+Windows users:
+  You will need the Win32 Console Ansi gem.  Get it:
+
+  $ gem install win32console
+
+
+== Usage
+  Just tail your log files like you usually do.
+  Eg.
+    $ tail -f /log/development.log
+    
+  And be amazed as your log files become just a little more fun.
+  Disclaimer: Increased fun may vary from developer to developer.
+
+  Try it on cucumber logs, we've done some fun things there.
+  Eg.
+    $ tail -f /log/cucumber.log
+
+== Who?
+
+  Richie Khoo is a developer from Melbourne, Australia. Don't be shy, you can follow me on twitter via @evolve2k
+
+== Compatibility
+
+  Currently certified for IWOMM
+  (It works on my machine)
 
 == Contributing to frogger
  
@@ -9,11 +56,10 @@ Description goes here.
 * Fork the project
 * Start a feature/bugfix branch
 * Commit and push until you are happy with your contribution
-* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
+* Make sure to add rspec tests for it. This is important so I don't break it in a future version unintentionally.
 * Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
 == Copyright
 
 Copyright (c) 2011 Richie Khoo. See LICENSE.txt for
 further details.
-
