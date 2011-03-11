@@ -15,14 +15,14 @@ Jeweler::Tasks.new do |gem|
   gem.name = "frogger"
   gem.homepage = "http://github.com/evolve2k/frogger"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "Frogger makes logs easier to navigate."
+  gem.description = "Navigating noise in your log files can be like trying to cross a busy road and avoid the cars. Frogger makes your log files more fun by adding some good ol' 8 bit color and a bit of formatting."
   gem.email = "evolve2k@gmail.com"
   gem.authors = ["Richie Khoo"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
-  #  gem.add_runtime_dependency 'jabber4r', '> 0.1'
-  #  gem.add_development_dependency 'rspec', '> 1.2.3'
+    gem.add_runtime_dependency 'colored', '> 1.2'
+    gem.add_development_dependency 'rspec', '> 1.2.3'
 end
 Jeweler::RubygemsDotOrgTasks.new
 
