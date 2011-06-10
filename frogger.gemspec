@@ -25,9 +25,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "frogger.gemspec",
-    "lib/frogger.rb",
-    "test/helper.rb",
-    "test/test_frogger.rb"
+    "lib/frogger.rb"
   ]
   s.homepage = %q{http://github.com/evolve2k/frogger}
   s.licenses = ["MIT"]
@@ -35,9 +33,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.5.3}
   s.summary = %q{Frogger makes logs easier to navigate.}
   s.test_files = [
-    "spec/spec_helper.rb",
-    "test/helper.rb",
-    "test/test_frogger.rb"
+    "spec/spec_helper.rb"
   ]
 
   if s.respond_to? :specification_version then

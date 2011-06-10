@@ -2,4 +2,5 @@ lib/**/*.rb
 bin/*
 - 
 features/**/*.feature
+spec/**/*.rb
 LICENSE.txt
