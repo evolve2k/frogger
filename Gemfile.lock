@@ -28,7 +28,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.0.0)
-  colored
+  colored (>= 1.2)
   cucumber
   jeweler (~> 1.5.2)
   rcov
