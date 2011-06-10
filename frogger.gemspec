@@ -25,7 +25,8 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "frogger.gemspec",
-    "lib/frogger.rb"
+    "lib/frogger.rb",
+    "spec/spec_helper.rb"
   ]
   s.homepage = %q{http://github.com/evolve2k/frogger}
   s.licenses = ["MIT"]
