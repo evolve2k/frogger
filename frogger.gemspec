@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "frogger.gemspec",
     "lib/frogger.rb",
     "test/helper.rb",
     "test/test_frogger.rb"
