@@ -1,5 +1,5 @@
 = frogger
-'Hop across the logs'
+'Hop around your logs'
 
 Frogger makes navigating logs easier and more fun.
 
@@ -23,20 +23,21 @@ Initially I've added a few tricks for working with cucumber log files, but there
 
 == How
 
-  Add this to your Gemfile:
-    gem 'frogger'
+  1. Add this to your Gemfile:
+      gem 'frogger'
 
+  2. Add this to your cucumber env.rb file, below your cucumber requires:
+      require 'frogger/cucumber'
     
 Windows users:
-  You will need the Win32 Console Ansi gem.  Get it:
-
-  $ gem install win32console
+  You will need the Win32 Console Ansi gem.  Get it by running this from the command line:
+    gem install win32console
 
 
 == Usage
   Just tail your log files like you usually do.
   Eg.
-    $ tail -f /log/development.log
+    $ tail -f /log/test.log
     
   And be amazed as your log files become just a little more fun.
   Disclaimer: Increased fun may vary from developer to developer.
@@ -49,10 +50,13 @@ Windows users:
 
   Richie Khoo is a developer from Melbourne, Australia. Don't be shy, you can follow me on twitter via @evolve2k
 
+  Special thanks to: 
+  Keith Pitt(@keithpitt), Pat Allan(@pat), Jared Fraser(@modsognir), Thomas Sinclair(@anathematic), mark_ryal(@markryall), Nathan Sampimon(@nathan_scott)
+  and everyone else at Australian RailsCamp 9 who helped me with the code and understanding the inner workings of cucumber.
+
 == Compatibility
 
-  Currently certified for IWOMM
-  (It works on my machine)
+  Currently certified for IWOMM (It works on my machine)
 
 == Contributing to frogger
  
