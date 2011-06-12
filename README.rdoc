@@ -1,13 +1,18 @@
 = frogger
+'Hop across the logs'
 
 Frogger makes navigating logs easier and more fun.
 
 Navigating 'noise' in your log files can feel like when you are crossing a busy road while attempting to avoid the cars.
-Frogger makes your log files more fun by adding some 8 bit colour and a bit of nice formatting.
+Frogger makes your log files more fun by adding some 8 bit colour and a some nice formatting.
 
 == Why?
 
 Other log enhancing gems are all about tracking performance and other such tasks.
+
+Ignore the traffic and just get across the logs.
+Forget how fast the traffic is, frogger just helps you get across the logs.
+
 Frogger is different. When you tail your logs, there is so much 'noise', it's hard to find a safe path through.
 
 I created frogger after squinting at the log tail so many times and feeling like a complete idiot as I searched for my needle in a haystack.
