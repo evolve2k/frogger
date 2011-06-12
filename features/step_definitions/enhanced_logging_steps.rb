@@ -41,7 +41,7 @@ end
 When /^I examine the rails log$/ do
 end
 
-When /^I do some crazy Inception like test on itself$/ do
+When /^I do some crazy Inception like test on myself$/ do
 end
 
 Then /^I see the following log entries:$/ do |ast|
