@@ -1,3 +1,5 @@
+require 'colored'
+
 Cucumber::Ast::Background.send(:attr_reader, :raw_steps)
 Cucumber::Ast::Feature.send(:attr_reader, :background)
 
