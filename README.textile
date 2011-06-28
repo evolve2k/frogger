@@ -1,0 +1,67 @@
+h1. frogger
+
+'Hop across the logs'
+
+Navigating your log files can feel like you are crossing a busy road while attempting to avoid the cars.
+Frogger makes your log files more fun by adding some 8 bit colour and some nice formatting.
+
+h2. Why?
+
+I created frogger after squinting at the log tail so many times and feeling like a complete idiot as I searched for a needle in a haystack.
+
+I thought surely this can be more fun.
+
+Other log enhancing gems are all about tracking performance and other such tasks.
+Frogger is not about speed, it's about getting through the logs with the least amount of pain.
+
+h2. What it does
+
+Run a cucumber feature and tail your log file, the scenario name and step names will be annotated in your log file in glorious 8 bit colour.
+
+h2. How
+
+Add this to your Gemfile:
+
+<pre><code>gem 'frogger'</code></pre>
+    
+*Windows users:* You will need the Win32 Console Ansi gem.  Get it by running this from the command line:
+
+<pre><code>gem install win32console</code></pre>
+
+
+h2. Usage
+
+Just tail your log files like you usually do.
+
+<pre><code>$ tail -f /log/test.log</code></pre>
+  
+Then run your cucumber tests
+
+<pre><code>$ bundle exec cucumber</code></pre>
+  
+And be amazed as your log files become just a little more fun. Disclaimer: Increased fun may vary from developer to developer.
+
+h2. Who?
+
+Richie Khoo is a developer from Melbourne, Australia. Don't be shy, you can follow me on twitter via "@evolve2k":http://twitter.com/evolve2k
+
+Special thanks to: 
+"Pat Allan":http://twitter.com/pat, "Keith Pitt":http://twitter.com/keithpitt, "Jared Fraser"::http://twitter.com/modsognir, "Thomas Sinclair":http://twitter.com/anathematic, "Mark Ryall":http://twitter.com/markryall, "Nathan Sampimon":http://twitter.com/nathan_scott and everyone else at Australian Rails Camp 9 who helped me with the code and understanding the inner workings of cucumber.
+
+h2. Compatibility
+
+No known issues
+
+h2. Contributing to frogger
+ 
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
+* Fork the project
+* Start a feature/bugfix branch
+* Commit and push until you are happy with your contribution
+* Make sure to add rspec tests for it. This is important so I don't break it in a future version unintentionally.
+* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+h2. Copyright
+
+Copyright (c) 2011 Richie Khoo. See LICENSE.txt for further details.
