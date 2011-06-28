@@ -1,2 +1,3 @@
-require 'pp'
-require File.expand_path "../../../lib/frogger/cucumber", __FILE__
+$LOAD_PATH.unshift File.dirname(__FILE__) + '/../../lib'
+
+require 'frogger'

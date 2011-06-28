@@ -19,8 +19,14 @@ GEM
       rake
     json (1.5.1)
     rake (0.9.2)
-    rcov (0.9.9)
-    shoulda (2.11.3)
+    rspec (2.6.0)
+      rspec-core (~> 2.6.0)
+      rspec-expectations (~> 2.6.0)
+      rspec-mocks (~> 2.6.0)
+    rspec-core (2.6.4)
+    rspec-expectations (2.6.0)
+      diff-lcs (~> 1.1.2)
+    rspec-mocks (2.6.0)
     term-ansicolor (1.0.5)
 
 PLATFORMS
@@ -29,7 +35,6 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.0.0)
   colored (>= 1.2)
-  cucumber
+  cucumber (>= 0.10.5)
   jeweler (~> 1.5.2)
-  rcov
-  shoulda
+  rspec (= 2.6.0)
