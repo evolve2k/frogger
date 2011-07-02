@@ -46,7 +46,7 @@ h2. Who?
 Richie Khoo is a developer from Melbourne, Australia. Don't be shy, you can follow me on twitter via "@evolve2k":http://twitter.com/evolve2k
 
 Special thanks to: 
-"Pat Allan":http://twitter.com/pat, "Keith Pitt":http://twitter.com/keithpitt, "Jared Fraser"::http://twitter.com/modsognir, "Thomas Sinclair":http://twitter.com/anathematic, "Mark Ryall":http://twitter.com/markryall, "Nathan Sampimon":http://twitter.com/nathan_scott and everyone else at Australian Rails Camp 9 who helped me with the code and understanding the inner workings of cucumber.
+"Pat Allan":http://twitter.com/pat, "Keith Pitt":http://twitter.com/keithpitt, "Jared Fraser":http://twitter.com/modsognir, "Thomas Sinclair":http://twitter.com/anathematic, "Mark Ryall":http://twitter.com/markryall, "Nathan Sampimon":http://twitter.com/nathan_scott and everyone else at Australian Rails Camp 9 who helped me with the code and understanding the inner workings of cucumber.
 
 h2. Compatibility
 
