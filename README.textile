@@ -50,7 +50,9 @@ Special thanks to:
 
 h2. Compatibility
 
-No known issues
+Requires Cucumber 10.0 and above. 
+(If it's not working it's probably because you have an older version of Cucumber.)
+
 
 h2. Contributing to frogger
  
