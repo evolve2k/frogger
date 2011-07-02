@@ -35,6 +35,6 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.0.0)
   colored (>= 1.2)
-  cucumber (= 0.10.0)
+  cucumber (>= 0.10.0)
   jeweler (~> 1.5.2)
   rspec (= 2.6.0)
