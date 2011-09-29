@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{frogger}
-  s.version = "0.2.2"
+  s.version = "0.3.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Richie Khoo"]
-  s.date = %q{2011-07-07}
+  s.authors = [%q{Richie Khoo}]
+  s.date = %q{2011-09-29}
   s.description = %q{Navigating noise in your log files can be like trying to cross a busy road and avoid the cars. Frogger makes your log files more fun by adding some good ol' 8 bit color and a bit of formatting.}
   s.email = %q{evolve2k@gmail.com}
   s.extra_rdoc_files = [
@@ -20,12 +20,15 @@ Gem::Specification.new do |s|
     ".document",
     "Gemfile",
     "Gemfile.lock",
+    "HISTORY",
     "LICENSE.txt",
     "README.textile",
     "Rakefile",
     "VERSION",
     "features/enhanced_logger.feature",
+    "features/examples_support.feature",
     "features/step_definitions/enhanced_logging_steps.rb",
+    "features/step_definitions/scenario_outline_steps.rb",
     "features/support/env.rb",
     "frogger.gemspec",
     "lib/frogger.rb",
@@ -35,9 +38,9 @@ Gem::Specification.new do |s|
     "spec/spec_helper.rb"
   ]
   s.homepage = %q{http://github.com/evolve2k/frogger}
-  s.licenses = ["MIT"]
-  s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.7.2}
+  s.licenses = [%q{MIT}]
+  s.require_paths = [%q{lib}]
+  s.rubygems_version = %q{1.8.7}
   s.summary = %q{Frogger makes logs easier to navigate.}
   s.test_files = [
     "spec/frogger/frog_spec.rb",
