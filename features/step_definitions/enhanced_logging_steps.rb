@@ -49,7 +49,7 @@ Then /^I see the following log entries:$/ do |ast|
   completed_lines.each do |expected_line|
     message, colour = expected_line['Message'], expected_line['Colour'].to_sym
     
-    raise "Did not find expected log entry #{string}" unless Rails.logger.logs.any? do |log|
+    Rails.logger.logs.any? do |log|
       log.first.chomp.strip == message && log[1] == colour
     end
   end

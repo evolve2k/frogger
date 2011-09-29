@@ -26,6 +26,10 @@ class Frogger::Frog
     self.step_index += 1
   end
   
+  def scenario_outline?
+    scenario.class == Cucumber::Ast::OutlineTable::ExampleRow
+  end
+  
   private
   
   def default_logger
@@ -33,7 +37,8 @@ class Frogger::Frog
   end
   
   def steps
-    @steps ||= background_steps + scenario.raw_steps
+    @steps ||= background_steps + 
+               (scenario_outline? ? scenario.scenario_outline.raw_steps : scenario.raw_steps)
   end
   
   def step
@@ -41,7 +46,13 @@ class Frogger::Frog
   end
   
   def background
-    @background ||= scenario.feature.instance_variable_get(:@background)
+    @background ||= begin
+      if scenario_outline?
+        scenario.scenario_outline.feature.instance_variable_get(:@background)
+      else
+        scenario.feature.instance_variable_get(:@background)
+      end
+    end
   end
   
   def background_steps
