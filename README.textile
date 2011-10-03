@@ -50,7 +50,7 @@ Special thanks to:
 
 h2. Compatibility
 
-Requires Cucumber 10.0 and above. 
+Requires Cucumber 0.10.0 and above.
 (If it's not working it's probably because you have an older version of Cucumber.)
 
 

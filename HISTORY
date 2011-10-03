@@ -1,2 +1,24 @@
-0.2.3 - 29 September 2011
+0.3.0 - 29 September 2011
 * Added support for Cucumber Scenario Outlines/Examples
+
+0.2.2 - 7 July 2011
+* Only evaluate Before and AfterStep if these methods exist
+
+0.2.1 - 2 July 2011
+* Back tested Cucumber versions (works for v0.10+ not for v0.9 and before)
+* Updated Cucumber version dependancy.
+
+0.2.0 - 28 June 2011
+* Full rewrite, thanks to a great pairing session with Pat Allen (@pat)
+
+0.1.2 - 16 June 2011
+* Minor changes
+ 
+0.1.1 - 15 June 2011
+* Core functionality
+* Outputs Scenario and Step Names
+* Support for Background Scenarios
+* Coloured output
+
+0.1.0 - 11 March 2011
+* Initial commit
