@@ -22,8 +22,7 @@ h2. How
 
 Add this to your Gemfile within the Group ':test', like so:
 <pre><code>Group :test do
-  # Put him somewhere inside the :test group cause he's happiest there
-  gem 'frogger'
+  gem 'frogger' # Put him somewhere inside the :test group cause he's happiest there
 end</code></pre>
     
 *Windows users:* You will need the Win32 Console Ansi gem.  Get it by running this from the command line:
