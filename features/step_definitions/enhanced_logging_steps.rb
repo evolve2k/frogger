@@ -36,12 +36,15 @@ end
 
 Given /^a cucumber feature is executing against my rails application$/ do
   #Rails.logger.reset
+  pending
 end
 
 When /^I examine the rails log$/ do
+  pending
 end
 
 When /^I do some crazy Inception like test on myself$/ do
+  pending
 end
 
 Then /^I see the following log entries:$/ do |ast|
