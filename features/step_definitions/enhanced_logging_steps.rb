@@ -34,8 +34,11 @@ module Rails
   end
 end
 
+Given /^an rSpec test file is being executed$/ do
+  pending
+end
+
 Given /^a cucumber feature is executing against my rails application$/ do
-  #Rails.logger.reset
   pending
 end
 
