@@ -20,9 +20,11 @@ Run a cucumber feature and tail your log file, the scenario name and step names 
 
 h2. How
 
-Add this to your Gemfile:
-
-<pre><code>gem 'frogger'</code></pre>
+Add this to your Gemfile within the Group ':test', like so:
+<pre><code>Group :test do
+  # Put him somewhere inside the :test group cause he's happiest there
+  gem 'frogger'
+end</code></pre>
     
 *Windows users:* You will need the Win32 Console Ansi gem.  Get it by running this from the command line:
 
@@ -41,18 +43,22 @@ Then run your cucumber tests
   
 And be amazed as your log files become just a little more fun. Disclaimer: Increased fun may vary from developer to developer.
 
+h2. How do I know if it's working?
+
+You should see newly added colour section headings in your tailed log which match the names of your cucumber Scenarios and Steps.
+
 h2. Who?
 
 Richie Khoo is a developer from Melbourne, Australia. Don't be shy, you can follow me on twitter via "@evolve2k":http://twitter.com/evolve2k
 
 Special thanks to: 
-"Pat Allan":http://twitter.com/pat, "Keith Pitt":http://twitter.com/keithpitt, "Jared Fraser":http://twitter.com/modsognir, "Thomas Sinclair":http://twitter.com/anathematic, "Mark Ryall":http://twitter.com/markryall, "Nathan Sampimon":http://twitter.com/nathan_scott and everyone else at Australian Rails Camp 9 who helped me with the code and understanding the inner workings of cucumber.
+"Pat Allan":http://twitter.com/pat, "Keith Pitt":http://twitter.com/keithpitt, "Jared Fraser":http://twitter.com/modsognir, "Thomas Sinclair":http://twitter.com/anathematic, "Mark Ryall":http://twitter.com/markryall, "Nathan Sampimon":http://twitter.com/nathan_scott and everyone else at Australian Rails Camp 9 who helped me with the code and understanding the inner workings of Cucumber.
 
 h2. Compatibility
 
-Requires Cucumber 0.10.0 and above.
-(If it's not working it's probably because you have an older version of Cucumber.)
-
+* Requires Cucumber 0.10.0 and above. (If it's not working it's probably because you have an older version of Cucumber.)
+* Works with Rails 2.x and Rails 3.x
+* Sinatra and other frameworks are currently not supported because it uses the Rails logger. (Pull requests welcome!)
 
 h2. Contributing to frogger
  
