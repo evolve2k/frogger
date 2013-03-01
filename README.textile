@@ -1,4 +1,4 @@
-h1. frogger
+h1. frogger "!https://codeclimate.com/github/evolve2k/frogger.png!":https://codeclimate.com/github/evolve2k/frogger
 
 'Hop across the logs'
 
