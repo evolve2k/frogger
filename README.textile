@@ -1,4 +1,4 @@
-h1. frogger "!https://codeclimate.com/github/evolve2k/frogger.png!":https://codeclimate.com/github/evolve2k/frogger
+h1. frogger !https://travis-ci.org/evolve2k/frogger.png?branch=master!:https://travis-ci.org/evolve2k/frogger "!https://codeclimate.com/github/evolve2k/frogger.png!":https://codeclimate.com/github/evolve2k/frogger
 
 'Hop across the logs'
 
