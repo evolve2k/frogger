@@ -1,4 +1,4 @@
-class Frogger::Frog
+class Frogger::Cucumber::Frog
   attr_reader   :scenario, :logger
   attr_accessor :step_index
   
@@ -25,7 +25,7 @@ class Frogger::Frog
     
     self.step_index += 1
   end
-  
+
   def scenario_outline?
     scenario.class == Cucumber::Ast::OutlineTable::ExampleRow
   end

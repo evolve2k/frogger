@@ -6,8 +6,8 @@ module Rails
   end
 end
 
-describe Frogger::Frog do
-  let(:frog) { Frogger::Frog.new(scenario, custom_logger) }
+describe Frogger::Cucumber::Frog do
+  let(:frog) { Frogger::Cucumber::Frog.new(scenario, custom_logger) }
   let(:scenario) { double('Scenario', :raw_steps => [step], :name => 'Foo') }
   let(:custom_logger) { double('Custom Logger', :debug => true) }
   let(:step) { double('Step', :keyword => 'When', :name => ' something happens') }
@@ -18,12 +18,12 @@ describe Frogger::Frog do
   
   describe '#logger' do
     it "is the logger passed in when initialised" do
-      frog = Frogger::Frog.new(scenario, custom_logger)
+      frog = Frogger::Cucumber::Frog.new(scenario, custom_logger)
       frog.logger.should == custom_logger 
     end
     
     it "defaults to the Rails logger" do
-      frog = Frogger::Frog.new(scenario)
+      frog = Frogger::Cucumber::Frog.new(scenario)
       frog.logger.should == Rails.logger       
     end
   end

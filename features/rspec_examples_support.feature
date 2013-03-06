@@ -1,10 +1,10 @@
-Feature: A developer can happily run cucumber scenarios/examples and everything works fine
+Feature: A developer can happily run rspec examples and everything works fine
   As a developer
-  In order to derive joy and happiness when checking my cucumber logs
-  I want to see rainbows and unicorns when my log files run
-
-  Scenario Outline: Cucumber Example Support
-    Given a cucumber feature is executing against my rails application
+  In order to save time looking through log files
+  I want my rspec test names to be highlighted
+  
+  Scenario: rSpec Example Support
+    Given an rSpec test file is being executed
     When I examine the rails log
     And I do some crazy Inception like test on myself
     And the features references different countries being "<country>"
@@ -15,8 +15,4 @@ Feature: A developer can happily run cucumber scenarios/examples and everything 
     | Given a cucumber feature is executing against my rails application | black_on_yellow  |
     | When I examine the rails log                                       | black_on_yellow  |
     | And I do some crazy Inception like test on myself                  | black_on_yellow  |  
-  
-    Examples:
-      | country   | price |
-      | Australia | 2.99  |
-      | Japan     | 2.69  |
+
